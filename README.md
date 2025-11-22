@@ -76,3 +76,14 @@ cd backend
 cp .env.example .env   # set FRONTEND_ORIGIN and PORT if needed
 pnpm install
 pnpm dev
+```
+
+### 2. Frontend
+
+```bash
+cd frontend
+cp .env.example .env   # set VITE_DYNAMIC_ENV_ID and VITE_API_URL
+pnpm install
+pnpm dev
+```
+
