@@ -4,6 +4,8 @@ React (Dynamic Headless) + Node.js/Express + viem
 This project implements the full requirements of the take-home assignment:
 a headless Dynamic.xyz authentication flow, client-side message signing, and backend signature verification.
 
+Live UI: https://legacy-fe-ui.vercel.app/
+
 ---
 
 ## 🚀 Overview
