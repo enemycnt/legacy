@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: web3-message-signer
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: PORT
+        value: "3001"
+      - key: FRONTEND_ORIGIN
+        sync: false
+    healthCheckPath: /health
